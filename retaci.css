@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@font-face {
+  font-family: aa;
+  src: url("font/vazir-font-v18.0.0/Vazir-Bold.woff" ) format("woff");
+}
+
+.a {
+  background-color:rgba(54, 95, 160, 1);
+  font-family: ordibehesht ;
+}
+.navbar {
+  background-color: hsl(326, 0%, 20%);
+  border-radius: 15px;
+  width: 100%;
+  font-family: aa;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 1); /* تغییرات این خط برای تنظیم سایه */
+  direction: rtl;
+}
+.logo {
+  width: 50px;
+}
+
+svg {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  border: 10px;
+  border-style: solid;
+  border-color: hsl(326, 0%, 20%) ;
+  
+  
+}
+svg text {
+  animation: stroke 3s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 180px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+  }
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(72, 138, 204, 1);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding:0px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 1); /* تغییرات این خط برای تنظیم سایه */
+  border-style: solid;
+  border-width: 15px;
+  border-color: hsl(326, 0%, 20%);
+  border-radius: 20px;
+  direction: rtl;
+
+}
+.text {
+  background-color: hsl(326, 0%, 20%);
+  width: 100%;
+  font-family: aa;
+
+}
+
+.img{
+  background-color: hsl(326, 0%, 20%);
+
+
+
+}
+.x{
+  width: 100%;
+  border-radius: 20px;
+}
+.onvan{
+  font-size: 40px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 20px;
+  color: rgba(54, 95, 160, 1);
+  border-color: black;
+  border-style: solid;
+  
+}
+
+.text-info{
+  text-align: justify;
+  margin: 30px;
+  font-size: 25px;
+ 
+}
+.icone{
+  text-align: center;
+}
+.icone-1{
+  color: #ffffff;
+  font-size: 30px;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.it-icon{
+  text-align: center;
+  color: #ffffff;
+}
+.mahsol{
+  background-color:hsl(326, 0%, 20%);
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 1); /* تغییرات این خط برای تنظیم سایه */
+}
+.onvan-mahsol{
+  padding: 5px;
+  margin-top: 20px;
+}
+#h-2{
+  text-align: center;
+  margin: 20px auto;
+  background-color: #ffffff;
+  width: 400px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 20px;
+  border-style: solid;
+  font-family: aa;
+  color: rgba(54, 95, 160, 1);
+  border-color: black;
+}
+.card-deck{
+  display: flex;
+  justify-content: center;
+  
+}
+.card{
+  margin: 20px;
+  width: 18rem;
+  height: 470px;
+}
+
+.mahsol-1{
+  text-decoration: none;
+}
+.card-title{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: aa;
+}
+.card-text {
+  direction: rtl;
+}
+.btn2 {
+  width: 200px;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  margin: 20px;
+  height: 80px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+  top: 20px;
+  margin-left: 0%;
+
+}
+.btn2:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn2:focus {
+  outline: none;
+}
+.btn2.btn1 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+}
